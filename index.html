@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vivat Dev Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="VivatDev - Web and Game Developer. Specializing in custom websites, e-commerce platforms, and Roblox game development.">
+    <meta name="keywords"
+        content="web development, game development, Roblox, HTML, CSS, JavaScript, e-commerce, landing pages">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="VivatDev - Portfolio">
+    <meta property="og:description"
+        content="Check out VivatDev's portfolio showcasing web development and Roblox game development projects.">
+    <meta property="og:image" content="assets/pfp.webp">
+    <meta property="og:url" content="https://vivat-dev.com">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:title" content="VivatDev - Portfolio">
+    <meta name="twitter:description"
+        content="Check out VivatDev's portfolio showcasing web development and Roblox game development projects.">
+    <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1851986580111491072/ju7x_Esx_400x400.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "VivatDev",
+        "url": "https://vivat-dev.com",
+        "image": "https://vivat-dev.com/assets/pfp.webp",
+        "sameAs": [
+            "https://www.facebook.com/profile.php?id=61571128162665",
+            "https://x.com/VivatDev",
+            "https://discordapp.com/users/441210150834143232"
+        ]
+        "jobTitle": "Web Developer & Game Developer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "VivatDev"
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <header id="navbar">
+        <nav>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="index-roblox.html">Roblox</a>
+            </div>
+
+            <div class="language-switch">
+                <a href="index.html" class="active">EN</a>
+                <span>|</span>
+                <a href="index-lt.html">LT</a>
+            </div>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- Mobile dropdown menu -->
+            <div class="dropdown-menu">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="index-roblox.html">Roblox</a>
+                <div class="mobile-language-switch">
+                    <a href="index.html" class="active">EN</a>
+                    <span>|</span>
+                    <a href="index-lt.html">LT</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm VivatDev..</h1>
+            <p>Web | Developer | Designer</p>
+            <!-- Add buttons here -->
+            <div class="hero-buttons">
+                <a href="#projects" class="about-btn">Projects</a>
+                <a href="#contact" class="contact-btn">Contact</a>
+            </div>
+        </div>
+        <div class="tile-container" id="tile-container"></div>
+        <img class="torn-paper-transition" src="assets/torn-paper.webp" alt="Torn paper transition">
+    </section>
+
+    <section id="projects">
+        <h1>My Projects</h1>
+        <div class="card-container">
+            <div class="card" onclick="window.location.href='https://blitzsupirkimas.lt/';">
+                <img class="card-img" src="assets/blitzsupirkimas.webp" alt="Blitz Supirkimas">
+                <div class="card-content">
+                    <h3>Blitz Supirkimas</h3>
+                    <p>A car purchaser, helping people easily sell their cars for a great price.
+                    </p>
+                </div>
+                <img class="link-icon" src="assets/link.webp" alt="Link Icon">
+            </div>
+            <div class="card" onclick="window.location.href='https://elitedigitalagency.com/';">
+                <img class="card-img" src="assets/eliteagency.webp" alt="Elite Digital Agency">
+                <div class="card-content">
+                    <h3>Elite Digital Agency</h3>
+                    <p>A digital marketing agency that specializes in creating and managing effective online campaigns
+                        for businesses.</p>
+                </div>
+                <img class="link-icon" src="assets/link.webp" alt="Link Icon">
+            </div>
+            <div class="card" onclick="window.location.href='https://square1.lt/';">
+                <img class="card-img" src="assets/squareone.webp" alt="Square 1 Barbershop">
+                <div class="card-content">
+                    <h3>SquareOne Barbershop</h3>
+                    <p>A modern barbershop located in Vilnius, offering stylish haircuts and grooming services.</p>
+                </div>
+                <img class="link-icon" src="assets/link.webp" alt="Link Icon">
+            </div>
+            <div class="card" onclick="window.location.href='https://palapines-nuoma.lt/';">
+                <img class="card-img" src="assets/palapinesnuoma.webp" alt="Palapines Nuoma">
+                <div class="card-content">
+                    <h3>Palapines Nuoma</h3>
+                    <p>A tent rental service providing high-quality tents for events, parties, and outdoor gatherings.
+                    </p>
+                </div>
+                <img class="link-icon" src="assets/link.webp" alt="Link Icon">
+            </div>
+        </div>
+        <h2>And much more to come...</h2>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h1>About Me</h1>
+            <div class="about-description">
+                <p class="about-p">
+                    I'm a Web and Game Developer passionate about creating solutions that help businesses thrive. I
+                    specialize in building websites, e-commerce platforms, and landing/product pages that drive growth.
+                    With expertise in a range of web development tools, showcased below, I deliver results that make my
+                    clients' businesses more successful online.
+                </p>
+
+                <div class="about-image">
+                    <img src="assets/pfp.webp" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-container">
+            <div class="skills">
+                <div class="skills-track">
+                    <!-- Original set -->
+                    <div class="skill" style="background-image: url('assets/HTML.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/CSS.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/JS.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/FLASK.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/WEBFLOW.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/WORDPRESS.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/FRAMER.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/PYTHON.webp');"></div>
+                    <!-- Duplicate set for seamless loop -->
+                    <div class="skill" style="background-image: url('assets/HTML.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/CSS.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/JS.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/FLASK.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/WEBFLOW.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/WORDPRESS.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/FRAMER.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/PYTHON.webp');"></div>
+
+                    <div class="skill" style="background-image: url('assets/HTML.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/CSS.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/JS.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/FLASK.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/WEBFLOW.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/WORDPRESS.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/FRAMER.webp');"></div>
+                    <div class="skill" style="background-image: url('assets/PYTHON.webp');"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or would like to connect, feel free to reach out to me through any of the platforms
+            below!</p>
+
+        <div class="contact-links">
+            <a href="https://discordapp.com/users/441210150834143232" target="_blank" class="contact-link"
+                aria-label="Discord">
+                <img src="assets/Discord.webp" alt="Discord">
+            </a>
+            <a href="https://x.com/VivatDev" target="_blank" class="contact-link" aria-label="Twitter">
+                <img src="assets/twitter.webp" alt="Twitter">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61571128162665" target="_blank" class="contact-link"
+                aria-label="Facebook">
+                <img src="assets/Facebook_logo_1.webp" alt="Facebook">
+            </a>
+        </div>
+
+        <!-- Gmail Button -->
+        <a href="mailto:zalgirismantasofficial@gmail.com" class="contact-link email-btn" aria-label="Email">Send me an
+            Email</a>
+
+        <footer class="footer">
+            <p>&copy; 2025 Vivat Dev. All rights reserved.</p>
+        </footer>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
